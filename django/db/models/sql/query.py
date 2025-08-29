@@ -8,8 +8,8 @@ all about the internals of models in order to get the information it needs.
 """
 import copy
 import warnings
-from collections import Counter, Mapping, OrderedDict
-from collections.abc import Iterator
+from collections import Counter, OrderedDict
+from collections.abc import Iterator, Mapping
 from itertools import chain, count, product
 from string import ascii_uppercase
 
