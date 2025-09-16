@@ -6,7 +6,7 @@ from django.contrib.gis.gdal import (
     CoordTransform, GDALException, OGRGeometry, OGRGeomType, OGRIndexError,
     SpatialReference,
 )
-from django.utils.six.moves import range
+# from django.utils.six.moves import range
 
 from ..test_data import TestDataMixin
 

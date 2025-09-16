@@ -6,7 +6,7 @@ import weakref
 from django.utils import six
 from django.utils.deprecation import RemovedInDjango20Warning
 from django.utils.inspect import func_accepts_kwargs
-from django.utils.six.moves import range
+# from django.utils.six.moves import range
 
 if six.PY2:
     from .weakref_backports import WeakMethod

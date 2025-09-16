@@ -4,7 +4,7 @@
 import re
 
 from django.core.exceptions import ValidationError
-from django.utils.six.moves import range
+# from django.utils.six.moves import range
 from django.utils.translation import ugettext_lazy as _
 
 

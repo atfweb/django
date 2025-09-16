@@ -15,7 +15,7 @@ from django.contrib.gis.gdal.prototypes import (
 from django.contrib.gis.gdal.srs import SpatialReference
 from django.utils import six
 from django.utils.encoding import force_bytes, force_text
-from django.utils.six.moves import range
+# from django.utils.six.moves import range
 
 
 # For more information, see the OGR C API source code:

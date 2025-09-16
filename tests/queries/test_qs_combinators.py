@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 from django.db.models import Exists, F, IntegerField, OuterRef, Value
 from django.db.utils import DatabaseError
 from django.test import TestCase, skipIfDBFeature, skipUnlessDBFeature
-from django.utils.six.moves import range
+# from django.utils.six.moves import range
 
 from .models import Number, ReservedName
 

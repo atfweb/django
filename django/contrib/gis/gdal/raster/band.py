@@ -6,7 +6,7 @@ from django.contrib.gis.gdal.prototypes import raster as capi
 from django.contrib.gis.shortcuts import numpy
 from django.utils import six
 from django.utils.encoding import force_text
-from django.utils.six.moves import range
+# from django.utils.six.moves import range
 
 from .const import GDAL_INTEGER_TYPES, GDAL_PIXEL_TYPES, GDAL_TO_CTYPES
 

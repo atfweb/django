@@ -11,7 +11,7 @@ Author: Aryeh Leib Taurog.
 from functools import total_ordering
 
 from django.utils import six
-from django.utils.six.moves import range
+# from django.utils.six.moves import range
 
 
 @total_ordering

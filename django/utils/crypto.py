@@ -13,7 +13,7 @@ import time
 from django.conf import settings
 from django.utils import six
 from django.utils.encoding import force_bytes
-from django.utils.six.moves import range
+# from django.utils.six.moves import range
 
 # Use the system PRNG if possible
 try:

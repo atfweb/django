@@ -21,7 +21,7 @@ from django.test import SimpleTestCase, ignore_warnings, mock
 from django.utils import six
 from django.utils.deprecation import RemovedInDjango20Warning
 from django.utils.encoding import force_bytes
-from django.utils.six.moves import range
+# from django.utils.six.moves import range
 
 from ..test_data import TestDataMixin
 

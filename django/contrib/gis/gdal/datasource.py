@@ -42,7 +42,7 @@ from django.contrib.gis.gdal.layer import Layer
 from django.contrib.gis.gdal.prototypes import ds as capi
 from django.utils import six
 from django.utils.encoding import force_bytes, force_text
-from django.utils.six.moves import range
+# from django.utils.six.moves import range
 
 
 # For more information, see the OGR C API source code:

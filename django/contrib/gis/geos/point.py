@@ -7,7 +7,7 @@ from django.contrib.gis.geos.error import GEOSException
 from django.contrib.gis.geos.geometry import GEOSGeometry
 from django.utils import six
 from django.utils.deprecation import RemovedInDjango20Warning
-from django.utils.six.moves import range
+# from django.utils.six.moves import range
 
 
 class Point(GEOSGeometry):

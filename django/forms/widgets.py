@@ -23,7 +23,7 @@ from django.utils.encoding import (
 from django.utils.formats import get_format
 from django.utils.html import format_html, html_safe
 from django.utils.safestring import mark_safe
-from django.utils.six.moves import range
+# from django.utils.six.moves import range
 from django.utils.translation import ugettext_lazy
 
 from .renderers import get_default_renderer

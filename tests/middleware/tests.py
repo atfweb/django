@@ -26,8 +26,8 @@ from django.test import (
 from django.utils import six
 from django.utils.deprecation import RemovedInDjango21Warning
 from django.utils.encoding import force_str
-from django.utils.six.moves import range
-from django.utils.six.moves.urllib.parse import quote
+# from django.utils.six.moves import range
+# from django.utils.six.moves.urllib.parse import quote
 
 
 @override_settings(ROOT_URLCONF='middleware.urls')

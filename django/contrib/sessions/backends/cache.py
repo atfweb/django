@@ -3,7 +3,7 @@ from django.contrib.sessions.backends.base import (
     CreateError, SessionBase, UpdateError,
 )
 from django.core.cache import caches
-from django.utils.six.moves import range
+# from django.utils.six.moves import range
 
 KEY_PREFIX = "django.contrib.sessions.cache"
 

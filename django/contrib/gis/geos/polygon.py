@@ -5,7 +5,7 @@ from django.contrib.gis.geos.geometry import GEOSGeometry
 from django.contrib.gis.geos.libgeos import GEOM_PTR, get_pointer_arr
 from django.contrib.gis.geos.linestring import LinearRing
 from django.utils import six
-from django.utils.six.moves import range
+# from django.utils.six.moves import range
 
 
 class Polygon(GEOSGeometry):

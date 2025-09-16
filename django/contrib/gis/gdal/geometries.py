@@ -53,7 +53,7 @@ from django.contrib.gis.gdal.srs import CoordTransform, SpatialReference
 from django.contrib.gis.geometry.regex import hex_regex, json_regex, wkt_regex
 from django.utils import six
 from django.utils.encoding import force_bytes
-from django.utils.six.moves import range
+# from django.utils.six.moves import range
 
 
 # For more information, see the OGR C API source code:

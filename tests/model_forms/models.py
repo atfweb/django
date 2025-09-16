@@ -20,7 +20,7 @@ from django.db import models
 from django.utils import six
 from django.utils._os import upath
 from django.utils.encoding import python_2_unicode_compatible
-from django.utils.six.moves import range
+# from django.utils.six.moves import range
 
 temp_storage_dir = tempfile.mkdtemp()
 temp_storage = FileSystemStorage(temp_storage_dir)
