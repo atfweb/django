@@ -1,5 +1,6 @@
 from django.utils import six
 # from django.utils.six.moves import html_parser as _html_parser
+from html import parser as _html_parser
 
 try:
     HTMLParseError = _html_parser.HTMLParseError
