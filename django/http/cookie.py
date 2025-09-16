@@ -4,8 +4,7 @@ import sys
 
 from django.utils import six
 from django.utils.encoding import force_str
-# from django.utils.six.moves import http_cookies
-
+import http.cookies
 # http://bugs.python.org/issue2193 is fixed in Python 3.3+.
 _cookie_allows_colon_in_names = six.PY3
 
@@ -17,11 +16,11 @@ cookie_pickles_properly = (
 )
 
 if _cookie_allows_colon_in_names and cookie_pickles_properly:
-    SimpleCookie = http_cookies.SimpleCookie
+    SimpleCookie = http.cookies.SimpleCookie()
 else:
-    Morsel = http_cookies.Morsel
+    Morsel = http.cookies.Morsel
 
-    class SimpleCookie(http_cookies.SimpleCookie):
+    class SimpleCookie(http.cookies.SimpleCookie()):
         if not cookie_pickles_properly:
             def __setitem__(self, key, value):
                 # Apply the fix from http://bugs.python.org/issue22775 where
