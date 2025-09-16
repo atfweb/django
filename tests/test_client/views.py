@@ -13,7 +13,7 @@ from django.shortcuts import render
 from django.template import Context, Template
 from django.test import Client
 from django.utils.decorators import method_decorator
-from django.utils.six.moves.urllib.parse import urlencode
+# from django.utils.six.moves.urllib.parse import urlencode
 
 
 def get_view(request):

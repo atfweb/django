@@ -16,7 +16,7 @@ from django.utils.deprecation import RemovedInDjango20Warning
 from django.utils.encoding import filepath_to_uri, force_text
 from django.utils.functional import LazyObject, cached_property
 from django.utils.module_loading import import_string
-from django.utils.six.moves.urllib.parse import urljoin
+# from django.utils.six.moves.urllib.parse import urljoin
 from django.utils.text import get_valid_filename
 
 __all__ = ('Storage', 'FileSystemStorage', 'DefaultStorage', 'default_storage')

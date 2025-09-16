@@ -4,8 +4,8 @@ from django.core import paginator
 from django.core.exceptions import ImproperlyConfigured
 from django.urls import NoReverseMatch, reverse
 from django.utils import translation
-from django.utils.six.moves.urllib.parse import urlencode
-from django.utils.six.moves.urllib.request import urlopen
+# from django.utils.six.moves.urllib.parse import urlencode
+# from django.utils.six.moves.urllib.request import urlopen
 
 PING_URL = "https://www.google.com/webmasters/tools/ping"
 

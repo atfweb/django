@@ -4,7 +4,7 @@ from django.core.management import BaseCommand
 from django.db import DEFAULT_DB_ALIAS, router
 from django.db.models.deletion import Collector
 from django.utils import six
-from django.utils.six.moves import input
+# from django.utils.six.moves import input
 
 from ...management import get_contenttypes_and_models
 

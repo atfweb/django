@@ -17,9 +17,9 @@ from django.utils.encoding import (
     force_bytes, force_str, force_text, iri_to_uri,
 )
 from django.utils.http import cookie_date
-from django.utils.six.moves import map
-from django.utils.six.moves.http_client import responses
-from django.utils.six.moves.urllib.parse import urlparse
+# from django.utils.six.moves import map
+# from django.utils.six.moves.http_client import responses
+# from django.utils.six.moves.urllib.parse import urlparse
 
 _charset_from_content_type_re = re.compile(r';\s*charset=(?P<charset>[^\s;]+)', re.I)
 

@@ -28,7 +28,7 @@ from django.urls import NoReverseMatch, reverse_lazy
 from django.utils import six, timezone
 from django.utils._os import upath
 from django.utils.deprecation import RemovedInDjango20Warning
-from django.utils.six.moves.urllib.request import urlopen
+# from django.utils.six.moves.urllib.request import urlopen
 
 from .models import Storage, temp_storage, temp_storage_location
 

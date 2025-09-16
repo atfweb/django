@@ -18,8 +18,8 @@ from django.test.utils import freeze_time, str_prefix
 from django.utils import six
 from django.utils.encoding import force_str
 from django.utils.http import cookie_date, urlencode
-from django.utils.six.moves import http_cookies
-from django.utils.six.moves.urllib.parse import urlencode as original_urlencode
+# from django.utils.six.moves import http_cookies
+# from django.utils.six.moves.urllib.parse import urlencode as original_urlencode
 from django.utils.timezone import utc
 
 

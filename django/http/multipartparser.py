@@ -21,7 +21,7 @@ from django.core.files.uploadhandler import (
 from django.utils import six
 from django.utils.datastructures import MultiValueDict
 from django.utils.encoding import force_text
-from django.utils.six.moves.urllib.parse import unquote
+# from django.utils.six.moves.urllib.parse import unquote
 from django.utils.text import unescape_entities
 
 __all__ = ('MultiPartParser', 'MultiPartParserError', 'InputStreamExhausted')

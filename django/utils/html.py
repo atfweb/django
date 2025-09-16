@@ -9,9 +9,9 @@ from django.utils.encoding import force_str, force_text
 from django.utils.functional import keep_lazy, keep_lazy_text
 from django.utils.http import RFC3986_GENDELIMS, RFC3986_SUBDELIMS
 from django.utils.safestring import SafeData, SafeText, mark_safe
-from django.utils.six.moves.urllib.parse import (
-    parse_qsl, quote, unquote, urlencode, urlsplit, urlunsplit,
-)
+# from django.utils.six.moves.urllib.parse import (
+#     parse_qsl, quote, unquote, urlencode, urlsplit, urlunsplit,
+# )
 from django.utils.text import normalize_newlines
 
 from .html_parser import HTMLParseError, HTMLParser

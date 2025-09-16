@@ -27,7 +27,7 @@ from django.test import (
     skipIfDBFeature, skipUnlessDBFeature,
 )
 from django.utils import six
-from django.utils.six.moves import range
+# from django.utils.six.moves import range
 
 from .models import (
     Article, Item, Object, ObjectReference, Person, Post, RawData, Reporter,

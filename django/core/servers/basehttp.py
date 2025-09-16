@@ -18,7 +18,7 @@ from django.core.exceptions import ImproperlyConfigured
 from django.core.wsgi import get_wsgi_application
 from django.utils import six
 from django.utils.module_loading import import_string
-from django.utils.six.moves import socketserver
+# from django.utils.six.moves import socketserver
 
 __all__ = ('WSGIServer', 'WSGIRequestHandler')
 

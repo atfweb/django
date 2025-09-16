@@ -12,7 +12,7 @@ from django.utils.cache import (
 from django.utils.deprecation import MiddlewareMixin, RemovedInDjango21Warning
 from django.utils.encoding import force_text
 from django.utils.http import escape_leading_slashes
-from django.utils.six.moves.urllib.parse import urlparse
+# from django.utils.six.moves.urllib.parse import urlparse
 
 
 class CommonMiddleware(MiddlewareMixin):

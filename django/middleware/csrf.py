@@ -18,8 +18,8 @@ from django.utils.crypto import constant_time_compare, get_random_string
 from django.utils.deprecation import MiddlewareMixin
 from django.utils.encoding import force_text
 from django.utils.http import is_same_domain
-from django.utils.six.moves import zip
-from django.utils.six.moves.urllib.parse import urlparse
+# from django.utils.six.moves import zip
+# from django.utils.six.moves.urllib.parse import urlparse
 
 logger = logging.getLogger('django.security.csrf')
 

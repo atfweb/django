@@ -16,9 +16,9 @@ from django.utils.datastructures import MultiValueDict
 from django.utils.deprecation import RemovedInDjango21Warning
 from django.utils.encoding import force_bytes, force_str, force_text
 from django.utils.functional import keep_lazy_text
-from django.utils.six.moves.urllib.parse import (
-    quote, quote_plus, unquote, unquote_plus, urlencode as original_urlencode,
-)
+# from django.utils.six.moves.urllib.parse import (
+#     quote, quote_plus, unquote, unquote_plus, urlencode as original_urlencode,
+# )
 
 if six.PY2:
     from urlparse import (

@@ -30,7 +30,7 @@ from django.utils import datetime_safe, six
 from django.utils.deprecation import RemovedInDjango20Warning
 from django.utils.encoding import force_text, iri_to_uri
 from django.utils.six import StringIO
-from django.utils.six.moves.urllib.parse import urlparse
+# from django.utils.six.moves.urllib.parse import urlparse
 from django.utils.timezone import utc
 from django.utils.xmlutils import SimplerXMLGenerator
 

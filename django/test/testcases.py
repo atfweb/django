@@ -38,10 +38,10 @@ from django.utils import six
 from django.utils.decorators import classproperty
 from django.utils.deprecation import RemovedInDjango20Warning
 from django.utils.encoding import force_text
-from django.utils.six.moves.urllib.parse import (
-    unquote, urljoin, urlparse, urlsplit, urlunsplit,
-)
-from django.utils.six.moves.urllib.request import url2pathname
+# from django.utils.six.moves.urllib.parse import (
+#     unquote, urljoin, urlparse, urlsplit, urlunsplit,
+# )
+# from django.utils.six.moves.urllib.request import url2pathname
 from django.views.static import serve
 
 __all__ = ('TestCase', 'TransactionTestCase',

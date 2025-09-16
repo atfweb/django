@@ -5,7 +5,7 @@ import sys
 from django.core.exceptions import ImproperlyConfigured
 from django.db.backends.base.creation import BaseDatabaseCreation
 from django.utils.encoding import force_text
-from django.utils.six.moves import input
+# from django.utils.six.moves import input
 
 
 class DatabaseCreation(BaseDatabaseCreation):

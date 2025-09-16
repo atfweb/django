@@ -41,7 +41,7 @@ from django.utils.deprecation import (
 from django.utils.encoding import force_bytes, force_text, iri_to_uri
 from django.utils.html import escape
 from django.utils.http import urlencode
-from django.utils.six.moves.urllib.parse import parse_qsl, urljoin, urlparse
+# from django.utils.six.moves.urllib.parse import parse_qsl, urljoin, urlparse
 
 from . import customadmin
 from .admin import CityAdmin, site, site2

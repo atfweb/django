@@ -20,7 +20,7 @@ from django.db.migrations.utils import get_migration_name_timestamp
 from django.db.migrations.writer import MigrationWriter
 from django.utils.deprecation import RemovedInDjango20Warning
 from django.utils.six import iteritems
-from django.utils.six.moves import zip
+# from django.utils.six.moves import zip
 
 
 class Command(BaseCommand):

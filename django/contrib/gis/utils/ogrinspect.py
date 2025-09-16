@@ -9,7 +9,7 @@ from django.contrib.gis.gdal.field import (
     OFTTime,
 )
 from django.utils import six
-from django.utils.six.moves import zip
+# from django.utils.six.moves import zip
 
 
 def mapping(data_source, geom_name='geom', layer_key=0, multi_geom=False):

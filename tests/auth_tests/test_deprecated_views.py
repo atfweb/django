@@ -18,7 +18,7 @@ from django.test import RequestFactory, TestCase, override_settings
 from django.test.utils import ignore_warnings, patch_logger
 from django.utils.deprecation import RemovedInDjango21Warning
 from django.utils.encoding import force_text
-from django.utils.six.moves.urllib.parse import ParseResult, urlparse
+# from django.utils.six.moves.urllib.parse import ParseResult, urlparse
 
 from .models import CustomUser, UUIDUser
 from .settings import AUTH_TEMPLATES

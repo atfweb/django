@@ -33,7 +33,7 @@ from django.urls import NoReverseMatch, reverse, reverse_lazy
 from django.utils.deprecation import RemovedInDjango21Warning
 from django.utils.encoding import force_text
 from django.utils.http import urlquote
-from django.utils.six.moves.urllib.parse import ParseResult, urlparse
+# from django.utils.six.moves.urllib.parse import ParseResult, urlparse
 from django.utils.translation import LANGUAGE_SESSION_KEY
 
 from .client import PasswordResetConfirmClient

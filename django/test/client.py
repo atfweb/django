@@ -26,7 +26,7 @@ from django.utils.encoding import force_bytes, force_str, uri_to_iri
 from django.utils.functional import SimpleLazyObject, curry
 from django.utils.http import urlencode
 from django.utils.itercompat import is_iterable
-from django.utils.six.moves.urllib.parse import urljoin, urlparse, urlsplit
+# from django.utils.six.moves.urllib.parse import urljoin, urlparse, urlsplit
 
 __all__ = ('Client', 'RedirectCycleError', 'RequestFactory', 'encode_file', 'encode_multipart')
 

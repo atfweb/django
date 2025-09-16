@@ -7,7 +7,7 @@ import sys
 from django.apps import apps
 from django.db.models.fields import NOT_PROVIDED
 from django.utils import datetime_safe, six, timezone
-from django.utils.six.moves import input
+# from django.utils.six.moves import input
 
 from .loader import MigrationLoader
 

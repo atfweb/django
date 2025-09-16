@@ -13,8 +13,8 @@ from django.test import LiveServerTestCase, override_settings
 from django.utils._os import upath
 from django.utils.http import urlencode
 from django.utils.six import text_type
-from django.utils.six.moves.urllib.error import HTTPError
-from django.utils.six.moves.urllib.request import urlopen
+# from django.utils.six.moves.urllib.error import HTTPError
+# from django.utils.six.moves.urllib.request import urlopen
 
 from .models import Person
 

@@ -4,7 +4,7 @@ import sys
 
 from django.utils import six
 from django.utils.encoding import force_str
-from django.utils.six.moves import http_cookies
+# from django.utils.six.moves import http_cookies
 
 # http://bugs.python.org/issue2193 is fixed in Python 3.3+.
 _cookie_allows_colon_in_names = six.PY3

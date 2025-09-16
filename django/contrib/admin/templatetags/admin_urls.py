@@ -2,7 +2,7 @@ from django import template
 from django.contrib.admin.utils import quote
 from django.urls import Resolver404, get_script_prefix, resolve
 from django.utils.http import urlencode
-from django.utils.six.moves.urllib.parse import parse_qsl, urlparse, urlunparse
+# from django.utils.six.moves.urllib.parse import parse_qsl, urlparse, urlunparse
 
 register = template.Library()
 

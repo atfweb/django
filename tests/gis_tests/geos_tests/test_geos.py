@@ -1097,7 +1097,7 @@ class GEOSTest(SimpleTestCase, TestDataMixin):
     def test_pickle(self):
         "Testing pickling and unpickling support."
         # Using both pickle and cPickle -- just 'cause.
-        from django.utils.six.moves import cPickle
+        # from django.utils.six.moves import cPickle
         import pickle
 
         # Creating a list of test geometries for pickling,

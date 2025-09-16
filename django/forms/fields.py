@@ -32,7 +32,7 @@ from django.utils.dateparse import parse_duration
 from django.utils.duration import duration_string
 from django.utils.encoding import force_str, force_text
 from django.utils.ipv6 import clean_ipv6_address
-from django.utils.six.moves.urllib.parse import urlsplit, urlunsplit
+# from django.utils.six.moves.urllib.parse import urlsplit, urlunsplit
 from django.utils.translation import ugettext_lazy as _, ungettext_lazy
 
 __all__ = (

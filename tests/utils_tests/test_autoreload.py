@@ -14,7 +14,7 @@ from django.test import SimpleTestCase, mock, override_settings
 from django.test.utils import extend_sys_path
 from django.utils import autoreload, six
 from django.utils._os import npath, upath
-from django.utils.six.moves import _thread
+# from django.utils.six.moves import _thread
 from django.utils.translation import trans_real
 
 LOCALE_PATH = os.path.join(os.path.dirname(upath(__file__)), 'locale')

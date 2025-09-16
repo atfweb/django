@@ -36,7 +36,7 @@ from django.test import (
 from django.test.utils import patch_logger
 from django.utils import six, timezone
 from django.utils.encoding import force_text
-from django.utils.six.moves import http_cookies
+# from django.utils.six.moves import http_cookies
 
 from .models import SessionStore as CustomDatabaseSession
 

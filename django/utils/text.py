@@ -11,7 +11,7 @@ from django.utils.functional import (
     SimpleLazyObject, keep_lazy, keep_lazy_text, lazy,
 )
 from django.utils.safestring import SafeText, mark_safe
-from django.utils.six.moves import html_entities
+# from django.utils.six.moves import html_entities
 from django.utils.translation import pgettext, ugettext as _, ugettext_lazy
 
 if six.PY2:

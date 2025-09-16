@@ -19,9 +19,9 @@ from django.utils.encoding import (
     escape_uri_path, force_bytes, force_str, force_text, iri_to_uri,
 )
 from django.utils.http import is_same_domain, limited_parse_qsl
-from django.utils.six.moves.urllib.parse import (
-    quote, urlencode, urljoin, urlsplit,
-)
+# from django.utils.six.moves.urllib.parse import (
+#     quote, urlencode, urljoin, urlsplit,
+# )
 
 RAISE_ERROR = object()
 host_validation_re = re.compile(r"^([a-z0-9.-]+|\[[a-f0-9]*:[a-f0-9\.:]+\])(:\d+)?$")
