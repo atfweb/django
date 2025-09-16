@@ -16,6 +16,9 @@ class Index(object):
 
     def __init__(self, fields=[], name=None):
         if not isinstance(fields, list):
+            print('********************************')
+            print (type(fields))
+            print('********************************')
             raise ValueError('Index.fields must be a list.')
         if not fields:
             raise ValueError('At least one field is required to define an index.')
